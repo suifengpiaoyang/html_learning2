@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'xingkai';
+    src:url('迷你简细行楷.TTF');
+}
+h1 {
+    text-align: center;
+    color:orange;
+    font-family: xingkai;
+}
