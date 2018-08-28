@@ -1,9 +1,83 @@
 @font-face {
-    font-family: 'xingkai';
-    src:url('迷你简细行楷.TTF');
+    font-family: 'lishu';
+    src:url('font/STLITI.TTF');
 }
-h1 {
+
+@font-face {
+    font-family:'freescpt';
+    src:url('font/FREESCPT.TTF');
+}
+
+@font-face {
+    font-family:'agencyr';
+    src:url('font/AGENCYR.TTF');
+}
+
+@font-face {
+    font-family:'alger';
+    src:url('font/ALGER.TTF');
+}
+
+@font-face {
+    font-family:'itcedscr';
+    src:url('font/ITCEDSCR.TTF');
+}
+
+@font-face {
+    font-family:'futura';
+    src:url('font/Futura-Book-2.ttf');
+}
+
+@font-face {
+    font-family:'adele';
+    src:url('font/adele-light-webfont-2.ttf');
+}
+
+body {
     text-align: center;
+    font-size:40px;
+}
+
+p {
+    color:blue;
+}
+
+.lishu {
+    text-align: center;
+}
+
+.lishu h1 {
     color:orange;
-    font-family: xingkai;
+    font-family: 'lishu';
+    font-size:80px;
+}
+
+.freescpt{
+    text-align: center;
+    font-family:'freescpt',sans-serif;
+    font-size:40px;
+}
+
+.agencyr {
+    font-family:'agencyr';
+    font-size:30px;
+}
+
+.alger {
+    font-family:'alger';
+    font-size:50px;
+}
+
+.itcedscr {
+    font-family:'itcedscr';
+    font-size:70px;
+}
+
+.futura {
+    font-family:'futura';
+    font-size:40px;
+}
+
+.adele {
+    font-family:'adele';
 }
